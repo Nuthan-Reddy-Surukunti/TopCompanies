@@ -15,10 +15,8 @@ import android.content.Context
 import android.widget.BaseAdapter
 import android.content.Intent
 
-// Data class for company type
 data class CompanyType(val name: String, val imageResId: Int)
 
-// Custom adapter for the ListView
 class CompanyTypeAdapter(private val context: Context, private val items: List<CompanyType>) : BaseAdapter() {
     override fun getCount(): Int = items.size
     override fun getItem(position: Int): Any = items[position]
