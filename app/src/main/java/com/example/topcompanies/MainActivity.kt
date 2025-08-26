@@ -44,12 +44,11 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-        // Prepare data
         val companies = listOf(
             CompanyType("Android companies", R.drawable.andriod),
             CompanyType("iOS companies", R.drawable.ios),
-            CompanyType("React companies", R.mipmap.ic_launcher_round),
-            CompanyType("Full Stack companies", R.mipmap.ic_launcher)
+            CompanyType("React companies", R.drawable.react),
+            CompanyType("Full Stack companies", R.drawable.fullstack)
         )
         val listView = findViewById<ListView>(R.id.list_item)
         listView.adapter = CompanyTypeAdapter(this, companies)

@@ -6,8 +6,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.BaseAdapter
+import android.widget.GridView
 import android.widget.ImageView
-import android.widget.ListView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
@@ -48,8 +48,8 @@ class CompanyListActivity : AppCompatActivity() {
             else -> getDemoCompanies()
         }
 
-        val listView = findViewById<ListView>(R.id.list_top_companies)
-        listView.adapter = TopCompanyAdapter(this, companies)
+        val gridView = findViewById<GridView>(R.id.list_top_companies)
+        gridView.adapter = TopCompanyAdapter(this, companies)
     }
 
     private fun getAndroidCompanies(): List<TopCompany> {
