@@ -112,17 +112,17 @@ class CompanyListActivity : AppCompatActivity() {
             TopCompany(
                 name = "Singsys (Lucknow & Singapore)",
                 description = "Established IT firm with ~15 years in the mobile/web development space. Known for crafting scalable, user-friendly iOS apps, UI/UX design, and enterprise mobility solutions.",
-                imageResId = R.drawable.ic_launcher_foreground
+                imageResId = R.drawable.Singsys
             ),
             TopCompany(
                 name = "Hidden Brains (Ahmedabad)",
                 description = "With over two decades of experience and 5,000+ projects delivered across 100+ countries, this award-winning company integrates cutting-edge tech like AI, IoT, and cloud into its iOS apps.",
-                imageResId = R.drawable.ic_launcher_foreground
+                imageResId = R.drawable.HiddenBrains
             ),
             TopCompany(
                 name = "Techugo (Noida)",
                 description = "A CMMI Level 3 company collaborating with startups, Fortune 500s, and government entities. Notable for highly impactful solutions—such as a Guinness World Record app—and involvement in high-profile projects like Byju's.",
-                imageResId = R.drawable.ic_launcher_foreground
+                imageResId = R.drawable.Techugo
             ),
             TopCompany(
                 name = "Hyperlink InfoSystem (Mumbai)",
